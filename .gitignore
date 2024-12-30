@@ -1,0 +1,70 @@
+# Compiled object files
+*.o
+*.obj
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executable files
+*.exe
+*.out
+*.app
+*.run
+
+# CMake build directories
+/build/
+/build-*/
+
+# CMake cache files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Raylib build artifacts (if built from source)
+raylib/Makefile
+raylib/build/
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+*.swo
+*~
+
+# IDE specific files
+.idea/
+.vscode/
+*.code-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+*.gcno
+*.gcda
+*.gcov
+
+# Test output files
+/tests/*.out
+/tests/*.log
+
+# User-specific configuration
+*.user
+*.user.*
+
+# Miscellaneous
+*.tga
+*.bmp
